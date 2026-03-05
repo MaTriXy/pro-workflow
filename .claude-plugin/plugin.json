@@ -1,7 +1,7 @@
 {
   "name": "pro-workflow",
-  "version": "1.3.0",
-  "description": "Battle-tested Claude Code workflows with persistent storage and searchable learnings. Self-correcting memory, parallel worktrees, wrap-up rituals, and the 80/20 AI coding ratio.",
+  "version": "2.0.0",
+  "description": "Complete AI coding workflow system. Orchestration patterns, 18 hook events, 5 agents, 7 reference guides, cross-agent support, and searchable learnings.",
   "author": {
     "name": "Rohit Ghumare",
     "url": "https://github.com/rohitg00"
@@ -26,6 +26,8 @@
   "agents": [
     "./agents/planner.md",
     "./agents/reviewer.md",
-    "./agents/scout.md"
+    "./agents/scout.md",
+    "./agents/orchestrator.md",
+    "./agents/debugger.md"
   ]
 }
